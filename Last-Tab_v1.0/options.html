@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Last Tab Options</title></head>
+<body>
+
+<label>
+  Open new tab on click
+  <input type="checkbox" id="newTab">
+</label>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<br /><br />
+<div style="max-width:600px; text-align: justify;">
+There is a known issue with the "Open new tab on click" option where
+moving with Ctrl + Tab through tabs will open a new tab if you circle
+around to the first tab. Unfortunately, I don't know of a way to avoid
+that with the Chrome API.
+<br />
+However, I suppose that
+people who use shortcuts for moving through tabs will also use them for
+opening new tabs, so they won't need the "Open new tab on click" option.
+</div>
+<script src="options.js"></script>
+</body>
+</html>
