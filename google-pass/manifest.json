@@ -1,0 +1,21 @@
+{
+    "name": "GooglePass",
+    "version": "1.0",
+    "description": "一个让你在国内访问google的插件",
+    "manifest_version": 2,
+    "icons":
+    {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "permissions": ["proxy", "webRequestBlocking", "webRequest", "https://*/*", "http://*/*"],
+    "background":
+    {
+        "scripts": ["js/jquery.js", "js/m.js", "js/pac.js", "js/template.js",  "js/bg.js"]
+    },
+    "browser_action":
+    {
+        "default_title": "GooglePass"
+    }
+}
